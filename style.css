@@ -1,0 +1,32 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
+  color: rgb(201, 201, 134);
+  background: linear-gradient(to bottom, #908845, #48431d);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+.title-box {
+  background-color: #273811;
+  color: #9ca249;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 10px; /* This line makes the corners rounded */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1em;
+}
